@@ -1,0 +1,103 @@
+nav {
+    background-color: brown;
+    height: 90px;
+    color: white;
+    padding-top: 20px;
+
+}
+
+nav>div {
+
+    width: 100%;
+    display: flex;
+    align-content: space-around;
+    column-gap: 100px;
+    padding: 10px;
+    margin-left: 10px;
+
+}
+
+a {
+    width: 20%;
+    text-decoration: none;
+    color: white;
+
+    text-align: center;
+}
+
+a:hover {
+    color: yellow;
+    font-size: large;
+}
+
+.content {
+    padding: 30px 0px 30px 0px;
+    /* background-color: green; */
+    height: 470px;
+
+}
+
+#aside {
+    width: 25%;
+    float: left;
+    border: black solid 1.7px;
+    margin-left: 25px;
+    padding: 10px;
+    height: 100%;
+}
+
+.box1 {
+    font-size: xx-large;
+    background-color: black;
+    color: white;
+    padding: 10px;
+}
+
+.box3 {
+    background-color: black;
+    color: white;
+    padding: 10px;
+}
+
+.box2 {
+    padding: 16px 0px 16px 0px;
+}
+
+#main {
+    /* background-color: pink; */
+    width: 70%;
+    float: right;
+    height: 100%;
+    display: flex;
+
+}
+
+.box {
+    border: 1.7px black solid;
+    width: 30%;
+    margin-left: 20px;
+}
+
+.pic {
+    padding: 20px;
+    padding-left: 25px;
+    /* background-color: red; */
+}
+
+.text {
+    /* background-color: green; */
+    padding: 5px 20px;
+    text-align: left;
+    padding-left: 27px;
+}
+
+.price {
+    width: 80%;
+    background-color: black;
+    color: white;
+    height: 50px;
+    font-size: 20px;
+    margin: 20px;
+    text-align: center;
+    padding-top: 13px;
+}
